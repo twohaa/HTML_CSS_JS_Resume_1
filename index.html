@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CV</title>
+
+    <!-- box icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">TWOHA</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bxs-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- all elements within this div,is generated in pdf  -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!-- home  -->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="./img/me.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">MD MAHFUZUL HAQUE BHUIYAN <b>TWOHA</b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
+
+                            <!-- button to download your cv saved in the pdf folder,available for mobile -->
+                            <div>
+                                <a download="" href="./pdf/ResumeCV.pdf" class="home__button-movil">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Kishoreganj, Dhaka #2300 - Bangladesh
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> mahfuzztwohaa@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> +88 01724 420 544
+                            </span>
+                        </div>
+                    </div>
+                    <!-- theme change button  -->
+                    <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                    <!-- button to generate and download the pdf ,available for desktop  -->
+                    <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                </section>
+
+
+                <!-- social  -->
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+
+                    <div class="social__container bd-grid">
+                        <a href="https://linkedin.com/in/md-mahfuzul-haque-bhuiyan-twoha-003259245" target="_blank"
+                            class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i>
+                            @md-mahfuzul-haque-bhuiyan-twoha-003259245
+                        </a>
+                        <a href="https://facebook.com/mahfuzz.twohaa" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon'></i> @mahfuzz.twohaa
+                        </a>
+                        <a href="https://instagram.com/twoohaa" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i> @twoohaa
+                        </a>
+                    </div>
+                </section>
+                <!-- profile  -->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        I am a person, responsible with their work during working hours.
+                        Finish various technical skills and studying B.tech in Computer science & engineering.
+                        I have a lot of experience in the field of web development.
+                    </p>
+                </section>
+                <!-- education  -->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">S.S.C & J.S.C</h3>
+                                <span class="education__studies">Kishoreganj Govt Boys High School -Kishoreganj,
+                                    Bangladesh.</span>
+                                <span class="education__year">2011 - 2016</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">H.S.C in Science</h3>
+                                <span class="education__studies">Gurudoyal Govt College -Kishoreganj,
+                                    Bangladesh..</span>
+                                <span class="education__year">2016 - 2018</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">B.Tech in CSE</h3>
+                                <span class="education__studies">Maulana Abul Kalam Azad University of Technology -West
+                                    Bengal, India</span>
+                                <span class="education__year">2019 - 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- skills  -->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML(Web Accessibility)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> CSS(Bootstrap & SASS)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Javascript(jQuery,JSON)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> React(Redux,Typescript)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git & GitHub
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Node.js
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Express.js
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> MongoDB
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Rest API
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Web Authentication
+                            </li>
+                        </ul>
+
+                        <!-- <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> DBMS(SQL)
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C & JAVA
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Data structure & Algorithm
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> OOPS
+                            </li>
+                        </ul> -->
+                    </div>
+                </section>
+            </div>
+
+            <div class="resume__right">
+                <!-- experience  -->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">EXPERIENCE</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Industrial Training on Python, Data Structure & Algorithm
+                                    and Database Management System.</h3>
+                                <span class="experience__company">Duration(6 weeks) - Completed(23rd April,2022) |
+                                    MYWBUT</span>
+                                <p class="experience__description">I completed python,data dtructure & algorithm & DBMS
+                                    field.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">A Training on Web Development.</h3>
+                                <span class="experience__company">Duration(1 month) - Completed(5th September,2022) |
+                                    Skill-Vertex</span>
+                                <p class="experience__description">I completed front-end & back-end in the web
+                                    development field.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Java Certification Course.</h3>
+                                <span class="experience__company">Duration(2 Month) - Completed(14th April,2022) |
+                                    Skill-Up</span>
+                                <p class="experience__description">I completed Java with OOPS concept.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">A Project by Python on Pap-smear Images identity.</h3>
+                                <span class="experience__company">Duration(1 year) - | HIT</span>
+                                <p class="experience__description">It is my running project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- certificates  -->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">CERTIFICATES</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for completed the Industrial Training(2022)</h3>
+                            <p class="certificate__description">This is so much helpful on the field of Python , Data
+                                Structure & DBMS.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for completed the Web Development Training(2022)
+                            </h3>
+                            <p class="certificate__description">This is so much helpful on the field of Web Design & Web
+                                Delveloping.</p>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for completed the Java Certification Course(2022)
+                            </h3>
+                            <p class="certificate__description">This is so much helpful on the field of Java & OOPS.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- References  -->
+                <section class="references section" id="references">
+                    <h2 class="section-title">REFERENCES</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Head Of The Department</span>
+                            <h3 class="references__title">DR. Subhankar Juardar</h3>
+                            <ul class="references__contact">
+                                <li>Phone : +91 94758 86853</li>
+                                <li>Email : user@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Assistant Professor</span>
+                            <h3 class="references__title">DR. Rajib Kumar Dubey</h3>
+                            <ul class="references__contact">
+                                <li>Phone : +91 99334 10573</li>
+                                <li>Email : user@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!-- languages  -->
+                <section class="languages section">
+                    <h2 class="section-title">LANGUAGES</h2>
+
+                    <div class="languages__container">
+                        <ul class="lamguages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Bangla
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Hindi
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- interests  -->
+                <section class="interests section">
+                    <h2 class="section-title">INTERESTS</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-code-alt interests__icon'></i>
+                            <span class="interests__name">Programming</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-football interests__icon'></i>
+                            <span class="interests__name">Playing Football</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt interests__icon'></i>
+                            <span class="interests__name">Travelling</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon'></i>
+                            <span class="interests__name">Listening Music</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- scroll top  -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+    </a>
+
+    <!-- HTML to PDF  -->
+    <script src="./js/html2pdf.bundle.min.js"></script>
+
+    <!-- js  -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
