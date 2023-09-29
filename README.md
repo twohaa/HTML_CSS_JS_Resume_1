@@ -1,1 +1,1 @@
-# A Personal Resounsive CV by HTML, CSS & JS
+# A Personal Responsive CV by HTML, CSS & JS
